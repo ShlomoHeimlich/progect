@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <form action="http://localhost:5000/save" method="POST">
+        <select required class="index" required name="complaint">
+            <option value="" disabled selected hidden>בחר את סוג התלונה</option>
+            <option value="food">אוכל</option>
+            <option value="equipment">ציוד</option>
+            <option value="orders">פקודות</option>
+            <option value="other">אחר</option>
+        </select>
+        <textarea required class="index" name="description" maxlength="50" placeholder=" כתוב כאן את התלונה שלך עד 50 תווים..."></textarea>
+        <input id="submit_complaint" type="submit">
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,28 @@
+.index{
+    width: 250px;
+    /* display: inline-block; */
+    background-color: rgb(231, 232, 236);
+    color: blue;
+    direction: rtl;
+    margin-left: 450px;
+    margin-top: 20px;
+    width: 400px;
+    height: 40px;
+}
+#button{
+    margin-top: 70px;
+    
+}
+    #mefaced{
+   margin-top:100px ;
+   margin-left: 600px;
+}
+option {
+    text-align: center;
+}
+#submit_complaint {
+  display: block;
+  padding: 10px 15px;
+  margin-right: 550px;
+  margin-left: auto;
+}
